@@ -1,5 +1,10 @@
 {
+  "homepage": "https://mhdfahid.github.io/florale_website",
   "dependencies": {
     "gh-pages": "^6.3.0"
-  }
+  },
+  "scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+}
 }
